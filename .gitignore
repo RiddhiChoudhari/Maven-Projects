@@ -1,1 +1,7 @@
 /.metadata/
+.metadata/
+.project
+.settings/
+.idea/
+*.iml
+*.log
