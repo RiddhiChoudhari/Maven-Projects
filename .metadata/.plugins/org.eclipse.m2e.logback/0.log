@@ -1545,3 +1545,100 @@
 2025-07-24 14:22:04,518 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
 2025-11-18 23:09:25,903 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2025-11-18 23:09:26,984 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2025-11-19 23:23:49,602 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-11-19 23:23:51,332 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2025-11-19 23:30:49,302 [Worker-14: Creating project "MavenApp1"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ashokIt:MavenApp1:0.0.1-SNAPSHOT @ C:\Spring_Applications\JavaByAshok\MavenApp1\pom.xml.
+2025-11-19 23:31:10,922 [Worker-14: Creating project "MavenApp1"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MavenApp1/src/main/java
+2025-11-19 23:31:10,944 [Worker-14: Creating project "MavenApp1"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MavenApp1/src/main/resources
+2025-11-19 23:31:10,948 [Worker-14: Creating project "MavenApp1"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MavenApp1/src/test/java
+2025-11-19 23:31:10,948 [Worker-14: Creating project "MavenApp1"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MavenApp1/src/test/resources
+2025-11-19 23:31:22,572 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-19 23:31:22,668 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-19 23:31:22,734 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-19 23:31:22,753 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-19 23:31:34,911 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-19 23:31:34,919 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-19 23:31:35,000 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-19 23:31:35,000 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-19 23:32:24,346 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-19 23:32:24,461 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-19 23:32:25,447 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\riddhic\Downloads\SpringApp2\src\test\resources
+2025-11-19 23:32:52,581 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2025-11-19 23:33:08,871 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [359])
+2025-11-19 23:33:08,885 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2025-11-19 23:33:08,889 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2025-11-19 23:33:08,892 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2025-11-19 23:33:08,895 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2025-11-19 23:33:08,897 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2025-11-19 23:33:08,899 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2025-11-19 23:33:08,903 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2025-11-19 23:33:08,905 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2025-11-19 23:33:08,908 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2025-11-19 23:33:08,910 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2025-11-19 23:33:08,912 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2025-11-19 23:33:08,913 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2025-11-19 23:33:08,915 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2025-11-19 23:33:08,916 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2025-11-19 23:33:08,917 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2025-11-19 23:33:08,918 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2025-11-19 23:33:08,920 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2025-11-19 23:33:08,921 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2025-11-19 23:33:08,923 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2025-11-19 23:33:08,925 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2025-11-19 23:33:08,927 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2025-11-19 23:33:08,929 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2025-11-19 23:33:08,931 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2025-11-19 23:33:08,933 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2025-11-19 23:33:08,936 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2025-11-19 23:33:08,939 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2025-11-19 23:33:08,941 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2025-11-19 23:33:08,944 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2025-11-19 23:33:08,947 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2025-11-19 23:33:08,949 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2025-11-19 23:33:08,952 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2025-11-19 23:33:08,955 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2025-11-19 23:33:08,957 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2025-11-19 23:33:08,960 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2025-11-19 23:33:08,962 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2025-11-19 23:33:08,964 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2025-11-19 23:33:08,966 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2025-11-19 23:33:08,968 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2025-11-19 23:33:08,969 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2025-11-19 23:33:08,971 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2025-11-19 23:33:08,973 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2025-11-19 23:33:08,976 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2025-11-19 23:33:08,978 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2025-11-19 23:33:08,981 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2025-11-19 23:33:08,993 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.0.jre [29])
+2025-11-19 23:33:08,998 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\com.google.guava_33.3.0.jre.jar
+2025-11-19 23:33:08,998 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [592])
+2025-11-19 23:33:09,000 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\slf4j.api_2.0.16.jar
+2025-11-19 23:33:09,001 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [45])
+2025-11-19 23:33:09,002 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2025-11-19 23:33:09,003 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [41])
+2025-11-19 23:33:09,004 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\jakarta.annotation-api_1.3.5.jar
+2025-11-19 23:33:09,005 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [77])
+2025-11-19 23:33:09,006 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.apache.commons.cli_1.9.0.jar
+2025-11-19 23:33:09,007 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [80])
+2025-11-19 23:33:09,010 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2025-11-19 23:33:09,010 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [30])
+2025-11-19 23:33:09,012 [Worker-19: Launching MavenApp1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.25.0.RELEASE\plugins\com.google.guava.failureaccess_1.0.2.jar
+2025-11-19 23:33:09,040 [Worker-19: Launching MavenApp1] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Spring_Applications\JavaByAshok\MavenApp1":
+2025-11-19 23:33:09,064 [Worker-19: Launching MavenApp1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean package
+2025-11-19 23:34:03,532 [Worker-15: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-19 23:34:03,561 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-19 23:34:03,582 [Worker-15: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-19 23:34:03,633 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-19 23:46:48,668 [Worker-22: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-19 23:46:48,673 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-19 23:46:48,677 [Worker-22: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-19 23:46:48,681 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-19 23:47:37,778 [Worker-23: Creating project "MavenPractice01"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.practice:MavenPractice01:0.0.1-SNAPSHOT @ C:\Spring_Applications\JavaByAshok\MavenPractice01\pom.xml.
+2025-11-19 23:47:38,181 [Worker-23: Creating project "MavenPractice01"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MavenPractice01/src/main/java
+2025-11-19 23:47:38,182 [Worker-23: Creating project "MavenPractice01"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MavenPractice01/src/main/resources
+2025-11-19 23:47:38,183 [Worker-23: Creating project "MavenPractice01"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MavenPractice01/src/test/java
+2025-11-19 23:47:38,184 [Worker-23: Creating project "MavenPractice01"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MavenPractice01/src/test/resources
+2025-11-19 23:47:38,741 [Worker-22: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-19 23:47:38,743 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-19 23:47:38,748 [Worker-22: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-19 23:47:38,751 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
